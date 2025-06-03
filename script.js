@@ -11,6 +11,7 @@ let matches = states.filter(state => {
 });
 if(searchText.length===0){
     matches=[];
+    matchList.innerHTML = '';
 }
 outputHtml(matches);
 
