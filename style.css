@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #01080f;
+
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+/* Container */
+.container {
+    max-width: 600px;
+    margin: 80px auto;
+    padding: 20px;
+    background: black;
+
+
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 25px;
+    font-size: 34px;
+}
+
+h1 i {
+    color: whitesmoke;
+    margin-right: 10px;
+}
+
+/* Input Field */
+.form-group {
+
+    display: flex;
+    justify-content: center;
+}
+
+.form-group input {
+    width: 75%;
+    padding: 12px;
+    font-size: 16px;
+    font-family: italic;
+
+    border-radius: 6px;
+
+}
+
+
+
+/* Match List */
+#match-list {
+    margin-top: 15px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+.match-item {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+
+.match-item:hover {
+    background-color: #f1f1f1;
+}
