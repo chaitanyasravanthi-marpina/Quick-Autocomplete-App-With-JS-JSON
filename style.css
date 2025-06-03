@@ -54,19 +54,33 @@ h1 i {
 /* Match List */
 #match-list {
     margin-top: 15px;
-    background: #fff;
-    border: 1px solid #ccc;
+}
+
+.card {
+    background-color: #1e1e1e;
+    padding: 15px;
     border-radius: 6px;
-    max-height: 250px;
-    overflow-y: auto;
+    margin-bottom: 10px;
+    text-align: left;
+    border-left: 4px solid #2d2d2d;
+    transition: background 0.3s;
 }
 
-.match-item {
-    padding: 10px;
-    border-bottom: 1px solid #eee;
-    cursor: pointer;
+.card:hover {
+    background-color: #2a2a2a;
 }
 
-.match-item:hover {
-    background-color: #f1f1f1;
+.card h4 {
+    margin: 0 0 8px;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.card small {
+    color: #aaaaaa;
+}
+
+.text-primary {
+    color: #1e90ff;
+    font-weight: bold;
 }
